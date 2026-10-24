@@ -11,6 +11,15 @@ A responsive React app for looking up GitHub users and exploring their public pr
 
 To create a production build, run `npm run build`.
 
+## Deploy to GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds and deploys the site when changes are pushed to `main`.
+
+1. On GitHub, open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push your changes to the `main` branch and check the **Actions** tab for the deployment status.
+4. Once deployment succeeds, open the Pages URL shown in **Settings → Pages**.
+
 ## Notes
 
 - No GitHub token is needed. The unauthenticated GitHub API has a rate limit, so wait a little and retry if you reach it.
